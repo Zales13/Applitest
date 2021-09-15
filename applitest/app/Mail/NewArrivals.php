@@ -30,7 +30,7 @@ class NewArrivals extends Mailable
 
         return $this->markdown('emails.newarrivals')
                     ->subject($this->new_arrival->title)
-                    ->from('wonderful@company.com', 'Wonderful Company')
+                    ->from('wonderful@company.com', 'Entrepises de bg')
                     ->with([
                         'user'=> $this->user,
                         'new_arrival' => $this->new_arrival,
